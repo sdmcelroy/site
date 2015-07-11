@@ -1,0 +1,6 @@
+<%
+
+session.removeAttribute("usrName");
+
+
+%>

@@ -1,0 +1,9 @@
+<div id="nav" class="nav">
+	<ul>
+		<li class="navItem"><a id="home" class="navLink" href="/">home</a></li>
+		<li class="navItem"><a id="signIn" class="navLink" href="/signin/">sign in</a></li>
+		<li class="navItem"><a id="signOut" class="navLink" href="/signin/signout/">sign out</a></li>
+		<li class="navItem"><a id="usrName" class="navLink" href="/user/"> <% out.print(session.getAttribute("usrName")); %></a></li>
+	</ul>
+	<div class="clearFloat"></div>
+</div>

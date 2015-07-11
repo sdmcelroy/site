@@ -1,0 +1,1 @@
+INSERT INTO `site`.`post` (`postUsrId`,`postSubject`,`postBody`) VALUES (1,'', '');
